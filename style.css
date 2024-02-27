@@ -1,0 +1,96 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #10102d, rgba(0, 0, 0, 0.879));
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containar {
+    background-image:
+        linear-gradient(to right, #10102dcc 30%, rgba(0, 0, 0, 0.334)),
+        url(./avatar-amag.png);
+    width: 93%;
+    height: 93%;
+    background-position: center;
+}
+
+.containar:hover {
+    background-image:
+        linear-gradient(to right, #10102dcc 30%, transparent),
+        url(./avatar-amag.png);
+    transition: 2s;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-right: 200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+ul a {
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover {
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.content {
+    color: white;
+    width: 50%;
+    margin-top: 130px;
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.content p {
+    letter-spacing: 2px;
+    width: 350px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content button {
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 85px;
+    border: 2px solid transparent;
+    margin-left: 30px;
+}
+
+.content button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
